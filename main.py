@@ -1,3 +1,6 @@
+import random
+random_list = [random.randint(-10, 10) for i in range(10)]
+print("Random list:", random_list)
 
 even_number_list = []
 for num in random_list:
